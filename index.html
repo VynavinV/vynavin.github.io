@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"="width=device-width, initial-scale=1.0">
+    <title>Vynavin Vinod | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <header>
+        <div class="glass-nav">
+            <div class="logo">VYNAVIN<span> VINOD</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="glass-card hero-content">
+                <h1>Full Stack <span>Developer</span></h1>
+                <p>Building digital experiences that blend creativity with functionality</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="game">Game Development</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-category="ai">
+                    <div class="project-img">
+                        <img src="/image06.jpg" alt="Questify">
+                    </div>
+                    <div class="project-content">
+                        <h3>Questify</h3>
+                        <p>Questify is a VLE (Virtual Learning Environment) that combines social media with school. It uses AI to process and generate videos/questions which can be completed for crypto rewards.</p>
+                        <div class="project-links">
+                            <a href="https://replit.com/@VynavinV/Questify" class="btn small"><i class="fas fa-eye"></i> Check it out</a>
+                            <a href="https://github.com/VynavinV/Questify" class="btn small secondary"><i class="fab fa-github"></i> Open Source</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-category="ai">
+                    <div class="project-img">
+                        <img src="/image04.jpg" alt="PhysioGame">
+                    </div>
+                    <div class="project-content">
+                        <h3>PhysioGame</h3>
+                        <p>An AI assisted gamified physiotherapy app. This project was created for a hackathon to showcase my skills in computer vision using mediapipe, unity, and opencv. It aims to make physiotherapy at home safer and more motivating.</p>
+                        <div class="project-links">
+                            <a href="https://devpost.com/software/physiogame?ref_content=my-projects-tab&ref_feature=my_projects" class="btn small"><i class="fas fa-eye"></i> Devpost</a>
+                            <a href="https://github.com/VynavinV/physiogame/tree/main" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card glass-card" data-category="crypto">
+                    <div class="project-img">
+                        <img src="/image10.png" alt="ChainMail">
+                    </div>
+                    <div class="project-content">
+                        <h3>ChainMail</h3>
+                        <p>ChainMail brings blockchain and AI to the masses, allowing for higher security. It integrates cross-chain interactions, enabling secure money transfers across different blockchains like Ethereum, Coinbase, or NEAR—all within your email app.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/VynavinV/ChainMail_AI" class="btn small"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://linkedin.com/in/vynavinv" class="btn small secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card glass-card" data-category="game">
+                    <div class="project-img">
+                        <img src="/image01.jpg" alt="Earth Gaem">
+                    </div>
+                    <div class="project-content">
+                        <h3>Earth Gaem</h3>
+                        <p>In my portfolio, I present Earth Gaem, my first full game still in progress. Featuring a unique art style, it highlights my development as a game creator through its stunning graphics, immersive gameplay, and engaging mechanics. Earth Gaem's captivating storyline and strategic challenges showcase my creativity and technical skills. I’m excited to share this project and the opportunities it may bring.</p>
+                        <div class="project-links">
+                            <a href="https://vmaster2000.itch.io/earth-gaem-alpha-channel" class="btn small"><i class="fas fa-eye"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card glass-card" data-category="game">
+                    <div class="project-img">
+                        <img src="/image09.jpg" alt="Rising Speed">
+                    </div>
+                    <div class="project-content">
+                        <h3>Rising Speed</h3>
+                        <p>Rising Speed is a car game that combines the thrill of high-speed racing with immersive gameplay and visually stunning graphics. With lots of attention to detail, this game showcases vehicle selection, seamless scene transitions, and vibrant environments. It represents a significant milestone in my journey towards mastering game development. Get ready for an adrenaline-pumping experience that delivers captivating visuals and engaging gameplay.</p>
+                        <div class="project-links">
+                            <a href="https://hurricanegames.itch.io/risingspeed" class="btn small"><i class="fas fa-eye"></i> Check it out</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card glass-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/image08.jpg" alt="JAAVid">
+                    </div>
+                    <div class="project-content">
+                        <h3>JAAVid</h3>
+                        <p>A platform which allows immigrants to quickly adapt into the new environment. It does this through a variety of different features incorporated in our app. It allows immigrants to quickly find jobs based on their skill set, verify documents using sentimental analysis and OCR scanning.</p>
+                        <div class="project-links">
+                            <a href="https://taikai.network/hackbox/hackathons/hawkhacks/projects/clwdlb8zg0fx5uc01k8mqviwx/idea" class="btn small"><i class="fas fa-eye"></i> Taikai</a>
+                            <a href="https://github.com/Vmaster2000/JAAVid" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-pagination">
+                <button class="pagination-btn" id="load-more">Load More</button>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-category glass-card">
+                    <h3>Frontend</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <div class="skill-name">HTML5/CSS3</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;" data-level="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;" data-level="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category glass-card">
+                    <h3>Backend</h3>
+                    <div class="skill-bars">
+                        
+                        <div class="skill">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;" data-level="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">Django</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;" data-level="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category glass-card">
+                    <h3>Database</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <div class="skill-name">MongoDB</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;" data-level="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">PostgreSQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;" data-level="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">MySQL</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;" data-level="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">SQLite</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;" data-level="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category glass-card">
+                    <h3>DevOps & Tools</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <div class="skill-name">Git</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;" data-level="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">Docker</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;" data-level="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">Google Cloud</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;" data-level="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">Unity</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;" data-level="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">Testing</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;" data-level="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-container">
+                <div class="about-image glass-card">
+                    <img src="/pfp.jpg" alt="Developer Profile">
+                </div>
+                <div class="about-content glass-card">
+                    <h3>Founder & Full Stack Developer</h3>
+                    <p>I am a passionate and driven founder and full stack developer with a strong background in both web and game development. My journey in tech began with a deep curiosity for how things work, which led me to explore various technologies and frameworks.</p>
+                    <p>Over the years, I have honed my skills by working on diverse projects, from AI-powered educational platforms to immersive VR applications. I thrive on solving complex problems and always learning new technologies to stay ahead in the ever-evolving tech landscape.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Brampton, ON</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>vinod.vynavin@gmail.com</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-phone"></i>
+                            <span>647-973-5291</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-briefcase"></i>
+                            <span>6+ Years Experience</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-language"></i>
+                            <span>English/Tamil</span>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#" class="btn primary">Download Resume</a>
+                        <div class="social-links">
+                            <a href="https://github.com/VynavinV" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://linkedin.com/in/vynavinv" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/vineoven/" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@hurricanegames8368" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Update the timeline section to ensure proper spacing -->
+            <div class="timeline glass-card">
+                <h3>Experience & Education</h3>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h4>Founder</h4>
+                            <p class="company">Questify</p>
+                            <p>Leading the development of an AI-powered educational platform.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - 2025</div>
+                        <div class="timeline-content">
+                            <h4>Lead Developer</h4>
+                            <p class="company">Schoolsync</p>
+                            <p>Leading development of educational web applications.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Present</div>
+                        <div class="timeline-content">
+                            <h4>Innovation Advisor</h4>
+                            <p class="company">Peel District</p>
+                            <p>Providing innovative solutions and advice for educational projects.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h4>VR Developer and Team Lead</h4>
+                            <p class="company">FutureCode</p>
+                            <p>Developed VR applications and led a team of developers.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h4>Honor Roll</h4>
+                            <p>Recognized for academic excellence.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h4>STEM Workshop Facilitator</h4>
+                            <p>Ran workshops to educate students on STEM topics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-container">
+                <div class="contact-info glass-card">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>vinod.vynavin@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (647) 973-5291</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Brampton, ON</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/VynavinV" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/vynavinv" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/vineoven/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@hurricanegames8368" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form glass-card">
+                    <h3>Send Message</h3>
+                    <form target="_blank" action="https://formsubmit.co/vinod.vynavin@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">VYNAVIN<span> VINOD</span></div>
+            <p>&copy; 2025 VYNAVIN. All rights reserved.</p>
+            <div class="social-links">
+              <a href="https://github.com/VynavinV" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="https://linkedin.com/in/vynavinv" class="social-link"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/vineoven/" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/@hurricanegames8368" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+
