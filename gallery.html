@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Vynavin Vinod</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <header>
+        <div class="glass-nav">
+            <div class="logo"><a href="index.html">VYNAVIN<span> VINOD</span></a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Gallery Hero Section -->
+        <section id="gallery-hero" class="gallery-hero">
+            <div class="glass-card hero-content">
+                <h1>Photo <span>Gallery</span></h1>
+                <p>Moments captured from awards, events, hackathons, and speaking engagements</p>
+            </div>
+        </section>
+
+        <!-- Gallery Content -->
+        <section id="gallery-content" class="gallery-section">
+            <!-- Awards Section -->
+            <div class="gallery-category">
+                <h2 class="category-title">
+                    <i class="fas fa-trophy"></i>
+                    <span>Awards & Recognition</span>
+                </h2>
+                <div class="bento-grid awards-grid" id="awards-gallery">
+                    <!-- Images will be dynamically loaded from Gallery/Awards/ folder -->
+                    <div class="bento-placeholder glass-card">
+                        <i class="fas fa-trophy"></i>
+                        <p>Add images to Gallery/Awards/ folder</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Events Section -->
+            <div class="gallery-category">
+                <h2 class="category-title">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Events & Conferences</span>
+                </h2>
+                <div class="bento-grid events-grid" id="events-gallery">
+                    <!-- Images will be dynamically loaded from Gallery/Events/ folder -->
+                    <div class="bento-placeholder glass-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <p>Add images to Gallery/Events/ folder</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hackathons Section -->
+            <div class="gallery-category">
+                <h2 class="category-title">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Hackathons</span>
+                </h2>
+                <div class="bento-grid hackathons-grid" id="hackathons-gallery">
+                    <!-- Images will be dynamically loaded from Gallery/Hackathons/ folder -->
+                    <div class="bento-placeholder glass-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <p>Add images to Gallery/Hackathons/ folder</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Talks Section -->
+            <div class="gallery-category">
+                <h2 class="category-title">
+                    <i class="fas fa-microphone"></i>
+                    <span>Talks & Presentations</span>
+                </h2>
+                <div class="bento-grid talks-grid" id="talks-gallery">
+                    <!-- Images will be dynamically loaded from Gallery/Talks/ folder -->
+                    <div class="bento-placeholder glass-card">
+                        <i class="fas fa-microphone"></i>
+                        <p>Add images to Gallery/Talks/ folder</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content-wrapper">
+            <img class="modal-image" id="modalImage" src="" alt="">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+        <button class="modal-nav modal-prev" id="modalPrev"><i class="fas fa-chevron-left"></i></button>
+        <button class="modal-nav modal-next" id="modalNext"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">VYNAVIN<span> VINOD</span></div>
+            <p>&copy; 2025 Vynavin Vinod. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/VynavinV" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/vynavinv" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/vineoven/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@hurricanegames8368" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js" type="module"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>

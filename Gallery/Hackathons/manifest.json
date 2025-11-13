@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "filename": "Spurhacks_demo_pic_group.jpeg",
+      "caption": "SpurHacks 2025 - Team Demo",
+      "description": "Presenting Verlia (formerly PurLux) at Canada's largest hackathon with 1,500+ participants"
+    },
+    {
+      "filename": "Spurhacks_group_pic_with_kapley.jpeg",
+      "caption": "SpurHacks - Group Photo with Kapley",
+      "description": "Team celebration at SpurHacks with fellow participants and organizers"
+    },
+    {
+      "filename": "Spurhacks_venue.jpeg",
+      "caption": "SpurHacks Venue",
+      "description": "The massive venue hosting Canada's largest hackathon with over 1,500 participants"
+    },
+    {
+      "filename": "Hackthevalley_photobooth.jpg",
+      "caption": "Hack the Valley - Photo Booth",
+      "description": "Fun moments captured at Hack the Valley, one of Canada's premier university hackathons"
+    },
+    {
+      "filename": "hackthevalleydemobooth.png",
+      "caption": "Hack the Valley - Demo Booth",
+      "description": "Project demonstration booth at Hack the Valley showcasing innovative solutions"
+    }
+  ]
+}

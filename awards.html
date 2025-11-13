@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards & Recognition | Vynavin Vinod</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <header>
+        <div class="glass-nav">
+            <div class="logo"><a href="index.html">VYNAVIN<span> VINOD</span></a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="awards.html" class="active">Awards</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Awards Hero Section -->
+        <section id="awards-hero" class="awards-hero">
+            <div class="glass-card hero-content">
+                <h1>Awards & <span>Recognition</span></h1>
+                <p>Celebrating excellence in innovation, entrepreneurship, and technology</p>
+            </div>
+        </section>
+
+        <!-- Awards Grid Section -->
+        <section id="awards" class="awards-section">
+            <h2 class="section-title">Major <span>Awards</span></h2>
+            
+            <div class="awards-grid">
+                <!-- Dragon's Den -->
+                <div class="award-card glass-card featured expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge">Winner</span>
+                        <h3>Dragon's Den Pitch Competition <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">2025 Canadian EdTech Summit</p>
+                        <p class="award-description">Won the prestigious Dragon's Den pitch competition at Canada's largest EdTech Summit, presenting innovative educational technology solutions to industry leaders and investors.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Canada</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image">
+                                <img src="Gallery/Awards/Dragons_Den_Award.jpeg" alt="Dragon's Den Pitch Competition Winner - 2025 Canadian EdTech Summit" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Peel Education Week Award -->
+                <div class="award-card glass-card featured expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge special">Special Recognition</span>
+                        <h3>Peel Education Week Award for Innovation <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">Peel District School Board</p>
+                        <p class="award-description">Recognized with the Innovation in Education Award—typically awarded to teachers—for revolutionary contributions to school technology infrastructure and educational innovation through SchoolSync and other initiatives.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2023-2024</span>
+                            <span><i class="fas fa-graduation-cap"></i> Education</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image">
+                                <img src="Gallery/Awards/innovation_and_letter.webp" alt="Peel Education Week Award for Innovation" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SpurHacks -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge winner">2nd Place AI</span>
+                        <h3>SpurHacks 2025 - Best AI Venture <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">Canada's Largest Hackathon (1,500+ participants)</p>
+                        <p class="award-description">Awarded 2nd Best AI Venture and $5,000 prize for Verlia (formerly PurLux), an AI-powered beauty and wellness platform connecting users with personal care professionals.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-dollar-sign"></i> $5,000</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image">
+                                <img src="Gallery/Awards/Spurhacks_award.jpeg" alt="SpurHacks 2025 - 2nd Place Best AI Venture" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- City of Brampton Hackathon (BramHacks) -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge third">3rd Place</span>
+                        <h3>BramHacks (City of Brampton Hackathon) <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">City of Brampton</p>
+                        <p class="award-description">Secured 3rd place among numerous competitors with innovative solutions addressing local community challenges through technology.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2024-2025</span>
+                            <span><i class="fas fa-city"></i> Brampton</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image">
+                                <img src="Gallery/Awards/bramhacks_with_giant_check.jpeg" alt="BramHacks 3rd Place Winner with Giant Check" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EurekaHacks -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge finalist">Finalist</span>
+                        <h3>EurekaHacks 2025 <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">EurekaHacks</p>
+                        <p class="award-description">Selected as a finalist for ZenZones project, demonstrating excellence in innovation and technical implementation.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-lightbulb"></i> Innovation</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Add image: Gallery/Awards/eurekahacks-2025.jpg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FBLC -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge top">Top 6</span>
+                        <h3>FBLC Coding & Programming <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">Future Business Leaders of Canada</p>
+                        <p class="award-description">Placed in the top 6 competitors in the FBLC Coding & Programming competition, showcasing advanced programming skills and problem-solving abilities.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2024-2025</span>
+                            <span><i class="fas fa-trophy"></i> Competition</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Add image: Gallery/Awards/fblc-coding.jpg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Honor Roll -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge academic">Academic</span>
+                        <h3>Honor Roll Student <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">Harold M. Brathwaite SS</p>
+                        <p class="award-description">Recognized for outstanding academic excellence and consistent high performance across all subjects in the IB Diploma Program.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2023-2024</span>
+                            <span><i class="fas fa-graduation-cap"></i> Academic</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image">
+                                <img src="Gallery/Awards/Honor_roll_24-25_certificate.jpg" alt="Honor Roll Certificate 2024-2025" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WolfHacks 2024 -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge winner">1st Place</span>
+                        <h3>WolfHacks 2024 <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">Chinguacousy Secondary School</p>
+                        <p class="award-description">First place winner at PDSB's largest hackathon, demonstrating exceptional technical skills and innovation in rapid prototyping.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-trophy"></i> Grand Prize</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Add image: Gallery/Awards/wolfhacks-2024.jpg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TurnerHacks 2024 -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge winner">Winner</span>
+                        <h3>TurnerHacks 2024 <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">Turner Fenton Secondary School, PDSB</p>
+                        <p class="award-description">Winner at TurnerHacks, showcasing innovative solutions and technical excellence in a competitive hackathon environment.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-trophy"></i> Winner</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image">
+                                <img src="Gallery/Awards/Turnerhacks_win.jpeg" alt="TurnerHacks 2024 Winner" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hack Canada -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge winner">NEAR Track Winner</span>
+                        <h3>Hack Canada <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">Hackathons Canada (MLH Affiliated)</p>
+                        <p class="award-description">First place winner of the NEAR Protocol track at this MLH-affiliated hackathon, demonstrating expertise in blockchain technology and decentralized applications.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-trophy"></i> Track Winner</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Add image: Gallery/Awards/hack-canada.jpg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hack the Valley -->
+                <div class="award-card glass-card expandable-card" onclick="toggleCard(this)">
+                    <div class="award-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="award-content">
+                        <span class="award-badge winner">Dell Track Winner</span>
+                        <h3>Hack the Valley <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <p class="award-org">University of Toronto Scarborough</p>
+                        <p class="award-description">Winner of the Best Inclusive Innovation track sponsored by Dell, creating technology solutions that promote accessibility and inclusivity.</p>
+                        <div class="award-meta">
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                            <span><i class="fas fa-trophy"></i> Track Winner</span>
+                        </div>
+                        <div class="award-details">
+                            <div class="award-image">
+                                <img src="Gallery/Awards/Hackthevalleyprize.jpg" alt="Hack the Valley - Dell Track Winner" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recognition Section -->
+        <section id="recognition" class="recognition-section">
+            <h2 class="section-title">Media & <span>Recognition</span></h2>
+            <div class="recognition-grid">
+                <div class="recognition-card glass-card">
+                    <div class="recognition-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>Media Features</h3>
+                    <p>Featured in multiple publications for innovations in EdTech, AI, and blockchain technology, highlighting work with Questify and SchoolSync.</p>
+                </div>
+                <div class="recognition-card glass-card">
+                    <div class="recognition-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Public Speaking</h3>
+                    <p>Regular panelist and speaker at tech events, including Brampton Tech Talks during National Youth Week 2025 and international presentations.</p>
+                </div>
+                <div class="recognition-card glass-card">
+                    <div class="recognition-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>International Showcase</h3>
+                    <p>Presented SchoolSync and Questify to Taiwan representatives, sharing insights on education accessibility and AI/Blockchain integration.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">VYNAVIN<span> VINOD</span></div>
+            <p>&copy; 2025 Vynavin Vinod. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/VynavinV" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/vynavinv" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/vineoven/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@hurricanegames8368" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js" type="module"></script>
+    <script>
+        function toggleCard(card) {
+            // Close all other expanded cards
+            document.querySelectorAll('.expandable-card.expanded').forEach(expandedCard => {
+                if (expandedCard !== card) {
+                    expandedCard.classList.remove('expanded');
+                }
+            });
+            
+            // Toggle the clicked card
+            card.classList.toggle('expanded');
+        }
+    </script>
+</body>
+</html>

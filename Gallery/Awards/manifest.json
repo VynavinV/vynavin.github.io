@@ -1,0 +1,49 @@
+{
+  "images": [
+    {
+      "filename": "Dragons_Den_Award.jpeg",
+      "caption": "Dragon's Den Pitch Competition Winner - 2025 Canadian EdTech Summit",
+      "description": "Won the prestigious Dragon's Den pitch competition at Canada's largest EdTech Summit"
+    },
+    {
+      "filename": "Innovation_award.webp",
+      "caption": "Peel Education Week Innovation Award",
+      "description": "Recognized with the Innovation in Education Award for revolutionary contributions to school technology"
+    },
+    {
+      "filename": "Innovation_award_front.webp",
+      "caption": "Innovation Award - Front View",
+      "description": "Peel Education Week Award for Innovation in Education - typically awarded to teachers"
+    },
+    {
+      "filename": "innovation_and_letter.webp",
+      "caption": "Innovation Award with Recognition Letter",
+      "description": "Complete Innovation Award package with official recognition from Peel District School Board"
+    },
+    {
+      "filename": "Spurhacks_award.jpeg",
+      "caption": "SpurHacks 2025 - 2nd Place Best AI Venture",
+      "description": "Awarded 2nd Best AI Venture and $5,000 prize at Canada's largest hackathon with 1,500+ participants"
+    },
+    {
+      "filename": "bramhacks_with_giant_check.jpeg",
+      "caption": "BramHacks 3rd Place Winner with Giant Check",
+      "description": "Secured 3rd place at City of Brampton's hackathon with innovative community-focused solutions"
+    },
+    {
+      "filename": "Turnerhacks_win.jpeg",
+      "caption": "TurnerHacks 2024 Winner",
+      "description": "Winner at TurnerHacks, showcasing innovative solutions and technical excellence"
+    },
+    {
+      "filename": "Hackthevalleyprize.jpg",
+      "caption": "Hack the Valley Prize Award",
+      "description": "Recognition from one of Canada's premier university hackathons"
+    },
+    {
+      "filename": "Honor_roll_24-25_certificate.jpg",
+      "caption": "Honor Roll Certificate 2024-2025",
+      "description": "Academic excellence award for outstanding performance in the IB Diploma Program"
+    }
+  ]
+}
