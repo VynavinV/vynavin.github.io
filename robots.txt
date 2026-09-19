@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /

@@ -59,7 +59,7 @@ function createImageElement(imagePath, imageData, category) {
   
   const img = document.createElement('img');
   img.src = imagePath;
-  img.alt = imageData.caption || imageData.description || extractCaption(imageData.filename);
+  img.alt = `Vynavin Vinod - ${imageData.caption || imageData.description || extractCaption(imageData.filename)}`;
   img.loading = 'lazy';
   
   const caption = document.createElement('div');
@@ -134,6 +134,7 @@ const nextBtn = document.getElementById('modalNext');
 function openModal(imageSrc, caption, category) {
   modal.classList.add('active');
   modalImg.src = imageSrc;
+  modalImg.alt = `Vynavin Vinod - ${caption}`;
   modalCaption.textContent = caption;
   currentCategory = category;
   
@@ -161,6 +162,7 @@ function showNextImage() {
     const caption = typeof imageData === 'string' ? extractCaption(imageData) : (imageData.caption || extractCaption(imageData.filename));
     const imagePath = `${galleryConfig[currentCategory].folder}${filename}`;
     modalImg.src = imagePath;
+    modalImg.alt = `Vynavin Vinod - ${caption}`;
     modalCaption.textContent = caption;
   }
 }
@@ -173,6 +175,7 @@ function showPrevImage() {
     const caption = typeof imageData === 'string' ? extractCaption(imageData) : (imageData.caption || extractCaption(imageData.filename));
     const imagePath = `${galleryConfig[currentCategory].folder}${filename}`;
     modalImg.src = imagePath;
+    modalImg.alt = `Vynavin Vinod - ${caption}`;
     modalCaption.textContent = caption;
   }
 }

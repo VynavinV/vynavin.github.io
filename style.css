@@ -245,8 +245,15 @@ section {
 
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: var(--text-color-muted);
+}
+
+.hero .hero-role {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
 }
 
 .cta-buttons {
@@ -310,6 +317,7 @@ section {
   padding: 20px;
 }
 
+.project-content h2,
 .project-content h3 {
   margin-bottom: 10px;
   font-size: 1.4rem;
@@ -537,6 +545,20 @@ section {
 .social-link:hover {
   background: var(--primary-color);
   transform: translateY(-3px);
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 18px;
+  margin-top: 18px;
+  color: var(--text-color-muted);
+  font-size: 0.9rem;
+}
+
+.profile-links a:hover {
+  color: var(--primary-color);
 }
 
 /* Timeline Section */

@@ -1,0 +1,29 @@
+# Vynavin Vinod
+
+> Vynavin Vinod is a founder and full stack developer building AI, education technology, and immersive technology products from Brampton, Ontario.
+
+## About
+
+- [Homepage](https://vynavin.tech/): Profile, experience, projects, skills, and contact information for Vynavin Vinod.
+- [Awards](https://vynavin.tech/awards.html): Awards and recognition in entrepreneurship, EdTech, AI, and hackathons.
+- [Publications](https://vynavin.tech/publications.html): Policy papers, technical whitepapers, and research programs involving Vynavin Vinod.
+- [Gallery](https://vynavin.tech/gallery.html): Photos from awards, events, hackathons, and presentations.
+
+## Ventures
+
+- [Questify](https://questify.study): AI-powered education platform founded by Vynavin Vinod.
+- SchoolSync: School community app for announcements and engagement, founded and developed by Vynavin Vinod.
+
+## Projects
+
+- Clai-TALOS: Private, local AI agent project developed by Vynavin Vinod.
+- Verlia: AI beauty and wellness platform co-founded and developed by Vynavin Vinod.
+- GoGarbage: Gamified environmental Web3 application.
+- CookieMaps: Cryptocurrency visualization platform.
+
+## Profiles
+
+- [GitHub](https://github.com/VynavinV)
+- [LinkedIn](https://www.linkedin.com/in/vynavinv/)
+- [DEV Community](https://dev.to/vynavin)
+- [Healthspan Action Coalition publication](https://healthspanaction.org/from-treatment-to-prevention-restructuring-biomedical-research-and-regulation-for-an-aging-world/)
