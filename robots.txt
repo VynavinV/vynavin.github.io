@@ -15,3 +15,5 @@ Allow: /
 
 User-agent: Anthropic-ai
 Allow: /
+
+Sitemap: https://vynavin.tech/sitemap.xml
