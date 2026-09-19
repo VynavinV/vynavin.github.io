@@ -1223,6 +1223,10 @@ body.custom-cursor .social-link {
   background: var(--secondary-color);
 }
 
+.award-badge.second {
+  background: var(--primary-color);
+}
+
 .award-badge.third {
   background: var(--accent-color-2);
 }

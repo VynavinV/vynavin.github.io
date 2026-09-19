@@ -139,7 +139,7 @@ function initSkillGalaxy() {
         value: 90,
         group: 1,
         description:
-          "Expert in Unity C# game development with 6+ years of experience creating immersive gaming experiences",
+          "Unity and C# game development across independent releases, VR applications, and the Bloxan Space Program",
       },
       {
         id: "ai-ml",
